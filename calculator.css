@@ -1,0 +1,86 @@
+/*
+    * @author roop kadam
+       @description calculator code
+*/
+h1{
+    font-weight: bold;              
+    font-size  : 40px;              
+    font-style : italic;            
+    text-align : center;            
+    text-shadow: 3px 3px 4px pink;  
+}
+
+.cal{
+   margin-top   : 30px;                                                      
+   margin-left  : 100px;                                                    
+   padding      : 5px;                                                       
+   padding-right: 10px;                                                     
+   width        : 550px;                                                    
+   height       : 600px;                                                     
+   background   : linear-gradient(to top, rgb(83,127,150), rgb(107,155,177)
+   ,rgb(83,127,150));
+   box-shadow: 10px 10px 8px rgb(161, 158, 158);  
+   text-align: center;
+}
+
+.button2{
+    font-weight  : bolder;
+    opacity      : 0.7;
+    margin-top   : 60px;
+    width        : 70px;
+    height       : 30px;
+    color        : orangered;
+    margin-left  : 35px;
+    padding-left : 10px;
+    border-radius: 5px;
+}
+
+.divButton{
+   
+    text-align: center;
+    margin-top: 30px;
+ 
+}
+input[type=text]
+{
+    font-weight     : bold;
+    margin-top      : 30px;
+    width           : 250px;
+    height          : 40px;
+    background-color: rgb(230, 253, 228);
+    font-size       : 20px;
+    border-radius   : 10px;
+    color           : gray;
+}
+
+button:hover{
+    background-color: rgb(125,172,195);
+}
+
+.buttons1{
+    font-weight     : bold;
+    margin-top      : 50px;
+    opacity         : 0.7;
+    width           : 80px;
+    height          : 30px;
+    margin-top      : 20px;
+    margin-left     : 70px;
+    background-color: rgb(220, 220, 220);
+    border-radius   : 5px;
+}
+
+.numbers{
+    margin-top: 40px;
+}
+.operations{
+    
+    margin-left: 35px;
+}
+.buttonEqual{
+    font-weight  : bold;
+    border-radius: 5px;
+    margin-top   : 45px;
+    width        : 350px;
+    height       : 30px;
+    opacity      : 0.7;
+}

@@ -1,0 +1,55 @@
+<!--
+    * @author roop kadam
+       @description calculator code
+-->
+<html>
+    <head>
+<link rel="stylesheet" type="text/css" href="/home/trainee6/Desktop/calculator/calculator.css">
+<script src="./script.js"></script>
+
+    </head>
+    <body>
+       <div class="cal">
+        <h1><b> Basic Calculator</b></h1>
+        
+        <!-- @description Input source -->
+        <input type="text" id="text1">
+       
+
+      
+    <div class="numbers">
+        <button type="button" id="49" class="buttons1" onClick="one('1')">1</button>
+        <button type="button" id="50" class="buttons1" onClick="one('2')"> 2</button>
+        <button type="button" id="51" class="buttons1" onClick="one('3')"> 3</button><br>
+        <button type="button" id="52" class="buttons1" onClick="one('4')"> 4</button>
+        <button type="button" id="53" class="buttons1" onClick="one('5')"> 5</button>
+        <button type="button" id="54" class="buttons1" onClick="one('6')"> 6</button><br>
+        <button type="button" id="55"  class="buttons1"onClick="one('7')">7</button>
+        <button type="button" id="56" class="buttons1" onClick="one('8')"> 8</button>
+        <button type="button" id="57" class="buttons1" onClick="one('9')"> 9</button><br>
+        <button type="button" id="61" class="buttons1" onClick="equal()"> =</button>
+        <button type="button" id="61" class="buttons1" onClick="one('0')">0</button>
+        <button type="button" id="46" class="buttons1" onClick="one('.')">.</button>
+        
+     </div>
+
+
+        <div class="operations">
+        <button type="button" id="43" class ="button2" onClick="one('+')"> + </button>&nbsp;&nbsp;&nbsp;
+        <button type="button" id="45" class ="button2" onClick="one('-')"> - </button>&nbsp;&nbsp;&nbsp;
+        <button type="button" id="42" class ="button2" onClick="one('*')"> * </button>&nbsp;&nbsp;&nbsp;
+        <button type="button" id="47" class ="button2" onClick="one('/')"> / </button>&nbsp;&nbsp;&nbsp;<br>
+
+        <button type="button" id="button1" class ="buttonEqual" onClick="textClear()">Clear</button>
+    </div>
+        
+          <!--@description para for displaying result-->
+        <p id="text1"></p>
+    
+        </div>
+    </body>
+
+
+</html>
+
+
